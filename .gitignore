@@ -35,3 +35,36 @@ out/
 
 ### VS Code ###
 .vscode/
+# Java
+*.class
+*.jar
+*.war
+
+# Logs
+*.log
+
+# IDE
+/.idea
+*.iml
+*.ipr
+*.iws
+*.sw?
+
+# Maven
+/target/
+
+# Gradle
+.gradle
+/build/
+
+# Environment
+.env
+application-dev.yml
+application-prod.yml
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Docker
+mysql_data/
